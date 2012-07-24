@@ -93,8 +93,6 @@ Feature: Error Reporting
     Then it should fail
      And the output should contain:
     """
-    .F-....
-    
     (::) failed steps (::)
     
     01. Notice: Undefined offset: 0 in features/bootstrap/FeatureContext.php line 33
